@@ -1,0 +1,3 @@
+set -e
+cp ../mod-files/$1.rs ./src/modules
+echo "pub mod $1;" >> ./src/modules/mod.rs
